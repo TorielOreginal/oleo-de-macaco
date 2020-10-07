@@ -1,0 +1,27 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+body, html {
+    height: 98%;
+    display: grid;
+
+    background-image: url('assets/oleo-de-macaco.jpg');
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+#clock{
+    font-size: 100px;
+    color: red;
+}
+
+@media(max-width: 400px){
+    #clock{
+        font-size: 60px;
+    }
+}
